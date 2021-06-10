@@ -1,0 +1,55 @@
+.navbar{
+    background: url(https://media.istockphoto.com/photos/spring-tulip-flowers-on-pink-background-top-view-and-flat-lay-style-picture-id1128961222?k=6&m=1128961222&s=612x612&w=0&h=wNKiRi4elSlJGiCh-jWuOE0IqckUldRfTabQu80rXKQ=) no-repeat center center/cover;
+    height: 80vh;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.navbar__header{
+    margin-left: 180px;
+}
+
+.navbar__header > h1{
+    font-weight: 600;
+    font-size: 100px;
+    color: rgb(70, 66, 66);
+}
+
+.navbar__header > p{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(59, 75, 75);
+}
+
+.navbar__searchBar{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(80, 79, 79);
+    /* width: 40%; */
+}
+
+.navbar__searchBar:hover{
+    box-shadow: 3px 3px 7px rgb(80, 79, 79);
+}
+
+.navbar__icon {
+    margin: 0 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navbar__searchBar > input {
+    width: 100vh;
+    height: 8vh;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.navbar__searchBar > input::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+}
